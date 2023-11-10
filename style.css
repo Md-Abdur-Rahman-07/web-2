@@ -23,7 +23,7 @@ body {
 }
 
 .header {
-    background-image: url(/images/pexels-egor-kamelev-927497.jpg);
+    background-image: url(img/pexels-egor-kamelev-927497.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -343,7 +343,7 @@ li {
 @media screen and (max-width:767px) {}
 
 .img-22 {
-    background-image: url(/images/pexels-belle-co-847393.jpg);
+    background-image: url(img/pexels-belle-co-847393.jpg);
     background-position: center;
     background-size: cover;
     width: 40%;
@@ -380,7 +380,7 @@ li {
 }
 
 .img-23 {
-    background-image: url(/images/pexels-jeremy-bishop-2765872.jpg);
+    background-image: url(img/pexels-jeremy-bishop-2765872.jpg);
     background-position: center;
     background-size: cover;
     width: 40%;
@@ -782,7 +782,7 @@ li {
 }
 
 .subs {
-    background-image: url(/images/pxfuel.jpg);
+    background-image: url(img/pxfuel.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -877,7 +877,7 @@ li {
 }
 
 .tree {
-    background-image: url(/images/pexels-negative-space-34066.jpg);
+    background-image: url(img/pexels-negative-space-34066.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
