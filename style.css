@@ -203,10 +203,13 @@ li {
 
     }
     .header{
-        height: 60vh;
+        height: 70vh;
     }
     .motto {
         line-height: 3rem;
+    }
+    .img-logo{
+        margin-left: 0 !important;
     }
 }
 
@@ -366,8 +369,8 @@ li {
 
 @media screen and (max-width:767px) {
     .img-2{
-        height: 90vh;
-        font-size: 80%;
+        height: 105vh;
+        font-size: 70%;
     }
 }
 
@@ -630,7 +633,33 @@ li {
     }
 }
 
-@media screen and (max-width:667px) {}
+@media screen and (max-width:667px) {
+    .div-50 {
+        height: 110vh;
+
+    }
+    .p-50{
+        height: 100vh !important;
+        width: 100% !important;
+       
+        padding: 0 !important;
+        gap: 3rem;
+    }
+  
+    .recent{
+       
+        height: 170vh;
+        margin-top: 1rem;
+    }
+  
+}
+@media screen and (max-width:380px){
+    .recent{
+       
+        height: 220vh !important;
+        margin-top: 15rem !important;
+    }
+}
 
 .div-50 {
     display: flex;
@@ -697,6 +726,7 @@ li {
 }
 
 .recent {
+  
     width: 80%;
     display: flex;
     justify-content: space-between;
@@ -847,13 +877,13 @@ li {
 }
 @media screen and (max-width:767px) {
     .input1 {
-        width: 80%;
+        width: 80% !important;
     }
     .input2 {
-        width: 80%;
+        width: 80% !important;
     }
     .input3 {
-        width: 80%;
+        width: 80% !important;
     }
 
 
@@ -919,7 +949,7 @@ li {
 
 @media screen and (max-width:1100px) {
     .tree {
-        height: 110vh !important;
+        height: 100vh !important;
     }
 
     .q1 {
@@ -1029,7 +1059,27 @@ li {
     }
     .tree1 {
         /* height: 150%; */
-        gap: 30%;
+        gap: 20%;
+    }
+    .btn111{
+        flex-direction: column !important;
+        gap: 2rem !important;
+    }
+}
+@media screen and (max-width:699px) {
+    .tree{
+        height: 180vh !important;
+    }
+    .div-jhm{
+        margin-top: 17rem;
+    }
+}
+@media screen and (max-width:380px) {
+    .tree{
+        height: 230vh !important;
+    }
+    .div-jhm{
+        margin-top: 20rem;
     }
 }
 .hhh1 {
