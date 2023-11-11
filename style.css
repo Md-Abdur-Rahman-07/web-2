@@ -6,7 +6,9 @@
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
 }
-
+.r211{
+    width: 100% ;
+}
 @media screen and (max-width:995px){
     .takeThat{
         width:110% !important;
@@ -162,7 +164,7 @@ li {
 
 .motto {
     margin-top: 7rem;
-    margin-left: 6rem;
+    margin-left: 3rem;
     line-height: 6.5rem;
 }
 
@@ -203,7 +205,7 @@ li {
 
     }
     .header{
-        height: 70vh;
+        height: 80vh;
     }
     .motto {
         line-height: 3rem;
@@ -369,8 +371,26 @@ li {
 
 @media screen and (max-width:767px) {
     .img-2{
-        height: 105vh;
+        height: 100vh;
         font-size: 70%;
+    }
+}
+@media screen and (max-width:420px) {
+    .img-2{
+        height: 105vh;
+        font-size: 65%;
+    }
+    .header{
+        height: 60vh;
+    }
+}
+@media screen and (max-width:370px) {
+    .img-2{
+        height: 130vh;
+        font-size: 60%;
+    }
+    .header{
+        height: 80vh;
     }
 }
 
@@ -639,11 +659,11 @@ li {
 
     }
     .p-50{
-        height: 100vh !important;
+        height: 130vh !important;
         width: 100% !important;
        
         padding: 0 !important;
-        gap: 3rem;
+        gap: 5rem;
     }
   
     .recent{
@@ -653,11 +673,23 @@ li {
     }
   
 }
-@media screen and (max-width:380px){
+@media screen and (max-width:420px){
     .recent{
-       
-        height: 220vh !important;
-        margin-top: 15rem !important;
+   
+        height: 180vh !important;
+        padding-top: rem !important;
+        justify-content: space-evenly;
+    }
+  
+}
+@media screen and (max-width:360px){
+    .recent{
+        
+        height: 270vh !important;
+        margin-top: 25rem !important;
+    }
+    .comment img{
+        margin-right: 1rem;
     }
 }
 
@@ -1074,12 +1106,26 @@ li {
         margin-top: 17rem;
     }
 }
-@media screen and (max-width:380px) {
+@media screen and (max-width:420px) {
     .tree{
-        height: 230vh !important;
+        height: 210vh !important;
     }
     .div-jhm{
-        margin-top: 20rem;
+        margin-top: 17rem;
+    }
+    .img-2{
+        height: ;
+    }
+}
+@media screen and (max-width:360px) {
+    .tree{
+        height: 280vh !important;
+    }
+    .div-jhm{
+        margin-top: 15rem;
+    }
+    .grid-con {
+        grid-template-columns: 1fr 1fr!important;
     }
 }
 .hhh1 {
@@ -1223,13 +1269,9 @@ li {
     width: 100%;
 }
 
-@media screen and (max-width:1100px) {
-    .grid-con {}
-}
-
 .grid-con {
     display: grid !important;
-    grid-template-columns: 1fr 1fr 1fr !important;
+    grid-template-columns: 1fr 1fr 1fr ;
     gap: 1rem;
 
 }
